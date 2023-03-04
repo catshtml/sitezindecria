@@ -1,0 +1,17 @@
+header{
+    background-color: #008cba;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0px 5px 5px silver;
+}
+.logo{
+    width: 228px;
+}
+.menu{
+    width: 25px;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+}
