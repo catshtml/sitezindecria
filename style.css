@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #222;
+}
+
 header{
     background-color: #008cba;
     display: flex;
@@ -5,13 +11,62 @@ header{
     padding: 10px 0;
     box-shadow: 0px 5px 5px silver;
 }
+
 .logo{
     width: 228px;
 }
+
 .menu{
     width: 25px;
     cursor: pointer;
 }
-body{
-    margin: 0;
+
+main {
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main button {
+    border-radius: 90px;
+    border: none;
+    width: 80%;
+    padding: 1em 20px;
+    margin: .5em 0;
+
+    box-shadow: 0px 5px 5px silver;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main select {
+    border: none;
+    width: 60%;
+    padding: 1em 20px;
+    margin: .5em 0;
+
+    box-shadow: 0px 5px 5px silver;
+}
+
+.button__cadastrado {
+    color: white;
+    background-color: #008cba;
+}
+
+main img {
+    width: 40%;
 }
